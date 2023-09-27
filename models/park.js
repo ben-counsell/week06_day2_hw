@@ -31,7 +31,7 @@ class Park {
         let speciesList = []
         for (let i = 0; i < this.dinosaurs.length; i++) {
             let dinosaur = this.dinosaurs[i]
-            if (dinosaur.species == species) {
+            if (dinosaur.species === species) {
                 speciesList.push(dinosaur)
             }
         }
